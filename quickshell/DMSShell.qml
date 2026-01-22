@@ -5,6 +5,7 @@ import qs.Modals
 import qs.Modals.Clipboard
 import qs.Modals.Settings
 import qs.Modals.Spotlight
+import qs.Modals
 import qs.Modules
 import qs.Modules.AppDrawer
 import qs.Modules.DankDash
@@ -188,6 +189,10 @@ Item {
                 }
             }
         }
+    }
+
+    TmuxModal {
+        id: tmuxModal
     }
 
     LazyLoader {
